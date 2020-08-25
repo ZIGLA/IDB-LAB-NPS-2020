@@ -2,7 +2,7 @@
 <html class="staticrypt-html">
 <head>
     <meta charset="utf-8">
-    <title>IDB Lab NPS</title>
+    <title>Protected Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- do not cache this page -->
@@ -117,7 +117,7 @@
 <div class="staticrypt-page">
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
-            <p class="staticrypt-title">IDB Lab NPS</p>
+            <p class="staticrypt-title">Protected Page</p>
             <p></p>
         </div>
 
@@ -6164,7 +6164,7 @@
         e.preventDefault();
 
         var passphrase = document.getElementById('staticrypt-password').value,
-            encryptedMsg = 'd7358ca917416d37943918b2f4c98bebb8875c18adf1a87f9f1163502ebb37d15b9bf08b40f71b38b8c81d21c15de4f7b18604edcffb205d2d24febc61cf5153BxXRJUx2EjwprMXcdCp5avmEAbFDqLP2l+mvvdBYSqDdSRRbMCT1EGbvekxq9uX/uS7WttfwIIZiptLuux61yqWAJ6Ns8hH8i23hQh2ceRlO4Sbdf9T6BcJJ3QjCMgE7v1LlbrgqOKLT59w7DbzIvsWzio88Q6kInsvZ8jUrO+AwCVxq6mZqJ1MZRVCwbdgDW2Jtv1cY54k3VO6JUknhFi642OrBkVt3loBoRVa+M7tU9Ypemp8p0J6mb/hkwOqkbTLow5iHN3tAaMvuRw0roKEYOQS30jdBYhCqKye9PPsX8hzKKLrHA43fFCl9H5gE4TsREP9gmcfYGSPNdTEeTU+FjqIEUbDkZeNBDGMs7ZrG8Qd2vJ1ux5YsikBoYFIvQajJw1w+qexdX6VdyJ2GbJzru7k4eVHzN+N/BUn/oc+Ih62Yu+mm4Znqa9NYMLkXJFPPBHbv61KifiwpnGNBpWLl8dHYwoXVtvrp3di411A=',
+            encryptedMsg = '8560cc229ff01f1e9c8fec4a0d0406bea686ceaaedc443f5f34625115452416c357530b23088cf74c259b2f8705cf33293605465a8986746c90137e46050d5adpbX8EdRtj7Sf7kcxk5oieafmps0UyGHDM0Uq9hbhEzQ5Gd4s+20Byuj1RaLr5LmFkRLIm4KJDHtmyyjx2dXeiFIBk7r2qWuwWGXSz06Mv5sFBaUbEgBRP7vP1jtmEME9W9KjwQ6eigmXg1A87hCJp+x39FGvGaOS2CFjHQw3oKVaqaloP8tWEWs4gmlePKKGSTk/onPcw2nqaOFbrSj/nZMb85H71uskQhSAS8yU3wanOYMRck/d3fRoUJMQxZiOL0B00d2zAzeGeRS7sv5oMo6ZZve4UeRcFjtgY0aNIw6S18QsboxWLNe6lDb66nm6gOjgpO2dZzKXDnUVKRFil1jMfFK9Rv1Rcpx7JI8YQ39pXzLRHvGsgqvMZVtC0PTjEk5PmPQiHeP+deZRQpukH26GQoJoc+BDQGQPk8i0edXNYHABnGQFEPokdoR+R+kZ8WhbSEpN7TIkCYMXvDrHHmOrCU8eP2LKuqc5/BeGR5w=',
             encryptedHMAC = encryptedMsg.substring(0, 64),
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
@@ -6182,3 +6182,5 @@
 </script>
 </body>
 </html>
+
+  
